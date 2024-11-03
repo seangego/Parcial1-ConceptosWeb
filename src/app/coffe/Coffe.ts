@@ -1,4 +1,4 @@
-export class Coffe{
+export class Coffee{
     id: number;
     nombre: string;
     tipo: string;

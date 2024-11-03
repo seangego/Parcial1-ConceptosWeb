@@ -1,3 +1,21 @@
-<p>
-  coffe-list works!
-</p>
+
+<div class="container mt-5">
+  <table class="tableCoffe">
+    <thead class="headerCoffe">
+      <tr>
+        <th>#</th>
+        <th>Nombre</th>
+        <th>Tipo</th>
+        <th>Región</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let coffee of coffees">
+      <tr>
+        <td>{{coffee.id}}</td>
+        <td>{{coffee.nombre}}</td>
+        <td>{{coffee.tipo}}</td>
+        <td>{{coffee.region}}</td>
+      </tr>      
+    </tbody>
+  </table>
+</div>
