@@ -19,3 +19,6 @@
     </tbody>
   </table>
 </div>
+<div *ngFor="let conteo of conteoXTipo | keyvalue" id="totales">
+  <p>Total café {{ conteo.key }} : {{ conteo.value }}</p>
+</div>
