@@ -1,0 +1,23 @@
+header {
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    size: 36px;
+}
+
+footer {
+    padding-left: 100px;
+    align-content: center;
+    width: 100%;
+}
+
+.banner-image {
+    background-image: url('../../src/images/imagen-banner.png');
+    background-size: cover;
+    background-position: center;
+    color: white;   
+    text-align: center;
+    position: relative;
+    height: 323px;
+    width: 1244px;
+    margin-left: 50px;
+  }
